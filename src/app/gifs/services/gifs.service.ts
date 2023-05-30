@@ -10,6 +10,7 @@ export class GifsService {
   private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
 
   constructor(private http: HttpClient) {
+    
     this.loadLocalStorage();
     console.log('Gifs service ready');
     
